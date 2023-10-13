@@ -1,0 +1,237 @@
+---
+ip: "192.168.56.56"
+memory: 4096
+cpus: 4
+provider: virtualbox
+
+networks:
+  - type: "public_network"
+    #    bridge: "en1: Wi-Fi (AirPort)"
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+#folders:
+  #- map: ~/code
+  #to: /home/vagrant/code
+
+sites:
+  #- map: d9holcim.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "8.1"
+  #
+  #- map: lmdv-form.test
+  #to: /home/vagrant/code/lmdv-form/public
+  #type: "apache"
+  #php: "7.4"
+  #
+  #- map: rewamp2019.test
+  #to: /home/vagrant/code/lafargeholcimcorporatesites/
+  #type: "apache"
+  #php: "7.2"
+  #
+  
+  #- map: edifixio.test
+  #to: /home/vagrant/code/refonte-edfx/
+  #type: "apache"
+  #php: "8.1"
+  
+  #- map: drupal8test.test
+  #to: /home/vagrant/code/drupal8-migration/web
+  #type: "apache"
+  #php: "7.4"
+  #
+
+  #- map: aiuk.test
+  #to: /home/vagrant/code/lafargeholcimcorporatesites/
+  #type: "apache"
+  #php: "7.4"
+  
+  #
+  #- map: d9ductal.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "8.1"
+  #
+  #- map: d9czech.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+  #
+  #- map: d9swiss.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+
+  #- map: d9bulgaria.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+  
+  #- map: d9demo.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+  #
+  #- map: d9jordan.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+
+  #- map: d9airium.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "8.1"
+  
+  #- map: d9us.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "8.1"
+  
+  #- map: d9croatia.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+
+  #- map: d9canada.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+
+  #- map: d9greece.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+  
+  #- map: d9belgium.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "8.1"
+  
+  #- map: d9mirabeau.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+  #
+  #- map: d9france.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+
+  #- map: d9southafrica.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+
+  #- map: d9aiuk2.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "8.1"
+  
+  #- map: d9hero.test
+  #to: /home/vagrant/code/heroproject/web
+  #type: "apache"
+  #php: "8.1"
+
+  #- map: d9brazil.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "7.4"
+
+  #- map: d9holcim_php8.test
+  #to: /home/vagrant/code/holcimwebfactory_php8/web
+  #type: "apache"
+  #php: "8.1"
+  
+      #- map: d9prb.test
+      #to: /home/vagrant/code/prb-with-nextjs/drupal/web
+      #type: "apache"
+      #php: "8.1"
+  
+  
+  #- map: d9gatsby.test
+  #to: /home/vagrant/code/gatsby/drupal/web
+  #type: "apache"
+  #php: "7.4"
+
+      #- map: d9mexico.test
+      #to: /home/vagrant/code/holcimwebfactory/web
+      #type: "apache"
+      #php: "8.1"
+      
+  #- map: www.holcim.com
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "8.1"
+  
+  #- map: d9poland.test
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "8.1"
+
+  #- map: bo-stellantis.test
+  #to: /home/vagrant/code/stellantis/drupal/web
+  #type: "apache"
+  #php: "8.1"
+
+  #- map: dsf.test
+  #to: /home/vagrant/code/dsf/web
+  #type: "apache"
+  #php: "8.1"
+
+
+  #- map: cotyd7.test
+  #to: /home/vagrant/code/cotyd7/
+  #type: "apache"
+  #php: "7.2"
+  #
+  #- map: cotyd9.test
+  #to: /home/vagrant/code/cotyd9/web
+  #type: "apache"
+  #php: "8.1"
+  
+  #- map: drupalcommerce.test
+  #to: /home/vagrant/code/drupalcommerce/web
+  #type: "apache"
+  #php: "8.1"
+  
+  
+  #- map: homestead.tail9cb01.ts.net
+  #  to: /home/vagrant/code/drupalcommerce/web
+  #  type: "apache"
+  #  php: "8.1"
+  
+  - map: d9htsinfo.test
+    to: /home/vagrant/code/heroproject/web
+    type: "apache"
+    php: "8.1"
+  
+  
+
+databases:
+    - homestead
+
+features:
+    - mysql: true
+    - mariadb: false
+    - postgresql: false
+    - ohmyzsh: false
+    - webdriver: false
+
+services:
+    - enabled:
+          - "mysql"
+          #- "postgresql@13-main"
+
+ports:
+    # for custom ssh tunel to a docker instance
+    - send: 2323
+      to: 2323
+    # ports 3000 & 3001 are for browsersync
+    - send: 3000
+      to: 3000
+    - send: 3001
+      to: 3001
