@@ -13,9 +13,9 @@ authorize: ~/.ssh/id_rsa.pub
 keys:
     - ~/.ssh/id_rsa
 
-#folders:
-  #- map: ~/code
-  #to: /home/vagrant/code
+folders:
+  - map: ~/code
+    to: /home/vagrant/code
 
 sites:
   #- map: d9holcim.test
@@ -200,12 +200,27 @@ sites:
   
   
   #- map: homestead.tail9cb01.ts.net
-  #  to: /home/vagrant/code/drupalcommerce/web
+  #to: /home/vagrant/code/holcimwebfactory/web
+  #type: "apache"
+  #php: "8.1"
+  
+  #- map: d9htsinfo.test
+  #to: /home/vagrant/code/heroproject/web
+  #type: "apache"
+  #php: "8.1"
+  
+  #- map: d9saml.test
+  #  to: /home/vagrant/code/holcimwebfactory/vendor/simplesamlphp/simplesamlphp/public
   #  type: "apache"
   #  php: "8.1"
   
-  - map: d9htsinfo.test
-    to: /home/vagrant/code/heroproject/web
+  #- map: d9sp.test
+  #to: /home/vagrant/code/holcimwebfactory/vendor/simplesamlphp/simplesamlphp/public
+  #type: "apache"
+  #php: "8.1"
+  
+  - map: poc-mh.test
+    to: /home/vagrant/code/poc-mh/web
     type: "apache"
     php: "8.1"
   
